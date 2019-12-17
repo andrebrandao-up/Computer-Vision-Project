@@ -43,7 +43,7 @@ def get_faces(image):
     # convert to gray.
     gray_img = cv2.cvtColor(temp_img, cv2.COLOR_BGR2GRAY)
     # create viola-jones classifier.
-    haar_face_cascade = cv2.CascadeClassifier('../rude-carnie/haarcascade_frontalface_default.xml')
+    haar_face_cascade = cv2.CascadeClassifier('viola-jones/haarcascade_frontalface_default.xml')
     # detect faces.
     return haar_face_cascade.detectMultiScale(gray_img, scaleFactor=1.1, minNeighbors=5);
 
