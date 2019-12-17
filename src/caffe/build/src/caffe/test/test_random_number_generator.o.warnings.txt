@@ -1,0 +1,6 @@
+In file included from src/caffe/test/test_random_number_generator.cpp:5:
+In file included from /usr/local/include/caffe/common.hpp:19:
+/usr/local/include/caffe/util/device_alternate.hpp:34:10: fatal error: 'cublas_v2.h' file not found
+#include <cublas_v2.h>
+         ^~~~~~~~~~~~~
+1 error generated.
